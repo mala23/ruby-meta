@@ -16,14 +16,14 @@ class Student
     self.class.send(:define_method, new_method){}
   end
 
- # def method_missing(method_name)
- #   "It's alright, #{method_name} does not exist, but I've got your back!"
- # end
+  # def method_missing(method_name)
+  #   "It's alright, #{method_name} does not exist, but I've got your back!"
+  # end
 
   # method_missing_v2 - the almighty
-  def method_missing(method_name, *args, &block)
-    "It's alright, #{method_name} does not exist, but I've got your back!"
-  end
+  # def method_missing(method_name, *args, &block)
+  #   "It's alright, #{method_name} does not exist, but I've got your back!"
+  # end
 
 end
 
