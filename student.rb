@@ -8,4 +8,8 @@ class Student
     @badges << badge
   end
 
+
 end
+
+student = Student.new
+# p student
