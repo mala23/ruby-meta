@@ -13,3 +13,4 @@ end
 
 student = Student.new
 # p student
+p student.class
